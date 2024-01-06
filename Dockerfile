@@ -1,5 +1,5 @@
-ARG ARGOCD_VERSION=2.5.10
-FROM argoproj/argocd:v$ARGOCD_VERSION
+ARG ARGOCD_VERSION=2.9.3
+FROM quay.io/argoproj/argocd:v$ARGOCD_VERSION
 
 USER root
 
